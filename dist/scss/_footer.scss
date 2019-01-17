@@ -1,0 +1,9 @@
+.c-footer {
+    background: #342f29;
+    &_content {
+        display: flex;
+        justify-content: center;
+        color: #fff;
+        font-size: 10px;
+    }
+}

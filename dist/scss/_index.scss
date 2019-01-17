@@ -1,0 +1,38 @@
+@import "_mixins";
+
+.c-index__video {
+   position: relative;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: left;
+   overflow: hidden;
+   
+   &_content {
+       width: 100%;
+       display: block;
+   }
+   &_about {
+       position: absolute;
+       text-align: left;
+       color: whitesmoke;
+       font-size: 10px;
+       padding: 20px;
+       margin: 15px;
+       z-index: 1;
+       width: 45%;
+       margin-top: 50px;
+       opacity: 0.7;
+       background: #000;
+       border: solid 0.5px;
+       @include mq(768px){
+           font-size: 25px;
+    }
+   }
+   &_container {
+    width: 100%;
+   }
+}
+ 
+
+

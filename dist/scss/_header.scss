@@ -1,0 +1,38 @@
+
+.c-header {
+     display: flex;
+     justify-content: space-between;
+     background-color:  black;
+     position: relative;
+     &__link_logo {
+        font-size: 40px;
+        text-decoration: none;
+         text-transform: capitalize;
+         padding: 10px 10px;
+         color: #ffffff;
+         font-family: 'Tangerine', cursive;
+         }
+     &__links {
+        display: flex;
+        align-items: center;
+     }       
+     &__link {
+         text-decoration: none;
+         text-transform: capitalize;
+         margin-right: 10px;
+         padding: 10px 12px;
+         color: #ffffff;
+         font-size: 12px;
+     }
+     a {
+         &:hover {
+             background: #333;
+         }
+     }
+
+}
+
+
+
+
+ 
