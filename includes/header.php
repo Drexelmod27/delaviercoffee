@@ -10,11 +10,14 @@
     <!--Components -->
     <link href="dist/css/main.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
-    <link rel="stylesheet" href="dist/scss/animate.scss">
+    <link rel="stylesheet" href="dist/scss/_animate.scss">
+    <link rel="stylesheet" type="text/scss" href="dist/scss/_slick.scss"/>
+    <link rel="stylesheet" type="text/scss" href="dist/scss/_slick-theme.scss"/>
+   
    
 </head>
 
-<body>
+<body >
     <header class="l-grid c-header">
         <div class="c-header_logo">
             <a class="c-header__link_logo" href="">delavier</a>

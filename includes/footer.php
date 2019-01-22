@@ -10,10 +10,7 @@
 
 
 
-<script src="dist/js/navigation.js"></script>
-<script src="dist/js/wow.min.js"></script>
-              <script>
-              new WOW().init();
-              </script>
+<?php include 'includes/carousel.php'; ?>
+<?php include 'includes/wow.php'; ?>
 </body>
 </html>

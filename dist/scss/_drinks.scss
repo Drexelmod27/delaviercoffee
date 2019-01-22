@@ -1,0 +1,50 @@
+.c-background {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.c-menu-header {
+    color: #fff;
+    font-family: 'Tangerine';
+    text-align: center;
+    font-size: 70px;
+    border-bottom: solid 4px #fff;
+}
+
+
+
+.c-content__container{
+    padding-left: 30px;
+    padding-right: 15px;
+    color: #fff;
+    background: black;
+    width: 100%;
+    display: flex;
+    th {
+        padding: 15px;
+    }
+
+    td {
+        padding: 15px;
+    }
+
+    .c-table {
+        widows: 50%;
+    }
+}
+
+.drink_image{
+    width: 430px;
+    height: 360px;
+    padding: 20px 25px;
+    margin-left: 50px;
+    margin-top: 15px;
+    
+}
+
+.drink_row_1 {
+    margin-right: 70px;
+    margin-left: 40px;
+}
