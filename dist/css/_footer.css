@@ -1,0 +1,13 @@
+.c-footer {
+  background: #342f29; }
+  .c-footer_content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 10px; }
+  .c-footer_text {
+    text-align: center; }
